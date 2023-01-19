@@ -44,9 +44,9 @@ if is_admin():
     im1.save('pic.png')
 
     # 此处填写你的APP参数信息
-    APP_ID = '29768744'
-    API_KEY = 'hjSWwMo3ubTzP3ETpD0Dso47'
-    SECRET_KEY = 'w03jtogaEVfG5sX8nwq3gakF2eMhVoix'
+    APP_ID = 'YOUR APP_ID'
+    API_KEY = 'YOUR API_KEY'
+    SECRET_KEY = 'YOUR SECRET_KEY'
 
     client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 

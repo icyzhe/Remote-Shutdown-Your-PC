@@ -2,6 +2,7 @@
 Turn off your computer through mobile phone WeChat and computer WeChat.
 
 测试于Windows10系统。
+
 其它有快捷键的通信软件理论上也完全可以。
 
 第一步：你需要做的是将两个.py文件通过pyinstaller3.8 -F -w xxxxx.py打包成.exe格式，并将两个.exe文件放到C:\Windows\System32目录下。需要注意的是，shutdown.py中需要用到文字识别技术，需要你自己去百度注册一个通用文字识别（标准版），网址是：https://ai.baidu.com/ ，网络上有很多教程。成功之后在shutdownPC.py里面替换成你自己的AppID、API Key和Secret Key。
